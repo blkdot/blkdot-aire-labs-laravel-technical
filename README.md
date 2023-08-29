@@ -17,6 +17,7 @@
 5. Build your own environment for this project by using .env file.
 6. Let's run the project. First, generate app key "php artisan key:generate"
 7. Then run migration. "php artisan migrate"
-8. After this. That's good. Run... "php artisan serv"
+8. Then seed the db: "php artisan db:seed"
+9. After this. That's good. Run... "php artisan serv"
 
 #### That's it. Thank you!
