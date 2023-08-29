@@ -1,19 +1,22 @@
-# Laravel Technical Assessment
+# What I have done?
 
-Welcome to the Aire Labs technical interview! We were very impressed by your application, and wanted to invite you to complete a short technical assessment to make sure you would be a good fit for this role.
+- I have implemented a page from figma design.
+- I have implemented fully responsive.
+- I didn't use any third party libraries such as Bootstrap, Tailwindcss.
+- And also used component-based design.
+- I have used helper function (get_accent_pos) to design accent effect.
+- I have also used seeder to build DB.
+- Also I have used lots of artisan commands.
 
-## Instructions
+# How to run the project?
 
-This repository has boilerplate code for a Laravel project, as well as some graphics assets. 
+1. Make sure that your php version is 8.1.
+2. Download composer and install.
+3. After installing, plz, load all the resources by using "composer install"
+4. Then make sure you have installed DB Server(MySQL).
+5. Build your own environment for this project by using .env file.
+6. Let's run the project. First, generate app key "php artisan key:generate"
+7. Then run migration. "php artisan migrate"
+8. After this. That's good. Run... "php artisan serv"
 
-Clone this repository and name it "[your github username]-aire-labs-laravel-technical]". Then, using Livewire, please implement [this design](https://www.figma.com/file/n9fw5W1l4S7FyyV7qadnW2/Technical-Assessment?type=design&node-id=0%3A1&mode=design&t=YjDVnlWZmevfQ8JU-1).
-
-When you are finished, email us the link to your repo with the subject "[Your Name] Aire Labs React Technical Assessment Completed".
-
-## Grading
-
-We are grading based on:
-
-* [ ] Code structure
-* [ ] Accuracy to the Figma
-* [ ] Responsiveness
+#### That's it. Thank you!

@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+body {
+    height: 100vh;
+    min-height: 720px;
+    width: 100vw;
+    background-color: #fff1e8;
+    position: absolute;
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0px;
+}
+
+.members-accent {
+    overflow-y: hidden;
+    height: 100vh;
+    z-index: -1;
+}
+
+.members-accent-item {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    transform: rotate(88.346deg);
+    flex-shrink: 0;
+    background: linear-gradient(
+        149deg,
+        #f82c2c 0%,
+        #ec874e 21.88%,
+        #e78b20 38.54%,
+        #6c3df4 56.25%,
+        #ff2633 77.08%,
+        #ff1818 100%
+    );
+    filter: blur(82px);
+}
+
+.members-content {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-cards {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.member-card {
+    display: inline-block;
+    margin: 0px;
+}
+
+.member-card-content {
+    border: 2px solid #111;
+    background: #fff;
+    padding: 1.875rem;
+}
+
+.card-member-position {
+    color: #111;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    opacity: 0.7;
+}
+
+.card-avatar {
+    margin-right: 1rem;
+    float: left;
+}
+
+.card-avatar-content {
+    display: inline-block;
+    width: 2.6875rem;
+    height: 2.6875rem;
+}
+
+.card-rate {
+    margin-bottom: 1.875rem;
+}
+
+.card-message {
+    color: rgba(17, 17, 17, 0.8);
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin-bottom: 1.875rem;
+    text-align: justify;
+}
+
+.card-member-name {
+    color: #111;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+/* Media query for smaller screen sizes */
+@media (max-width: 1024px) {
+
+    .members-content {
+        min-height: 1250px;
+    }
+
+    .members-cards {
+        width: 80%;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+    .member-card {
+        width: 100%;
+        padding-bottom: 1.875rem;
+    }
+
+    .members-cards .member-card:last-child {
+        padding-bottom: 0rem;
+    }
+
+    .card-message {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* Media query for larger screen sizes */
+@media (min-width: 1024px) {
+
+    .members-content {
+        min-height: 723px;
+    }
+
+    .members-cards {
+        width: 86%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .member-card {
+        width: 33.33%;
+        padding: 0.9375rem;
+    }
+
+}
