@@ -15,7 +15,7 @@ class MemberSeeder extends Seeder
         "message" => "\"You made it so simple.\"",
         "avatar" => "images/Brittan_Wheeler"
     ],
-    ["name" => "Darika Samak",
+    ["name" => "Alexa Popen",
         "position" => "CEO",
         "rate"=> 3,
         "message" => "\"You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change & it is a good channel for us.\"",
